@@ -10,7 +10,8 @@
    <body>
      <header class="hero">
      <div class="container animate-item">
-        <h1>Ofertas de Streaming: Netflix, Disney+, Spotify e outros</h1>
+        <h1>Ofertas de Streaming: 
+          Netflix, Disney+, Spotify e outros</h1>
         <p>Compre planos premium e básicos com contato direto via WhatsApp ou email. Produtos de streaming para todos os gostos.</p>
         <a href="#produtos" class="btn">Ver ofertas</a>
      </div>
