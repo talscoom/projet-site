@@ -1,84 +1,98 @@
-     <!DOCTYPE html>
-   <html lang="pt-BR">
-   <head>
-     <meta charset="UTF-8" />
-     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <title>Talscom Streming</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-     <link rel="stylesheet" href="style.css" />
-   </head>
-   <body>
-     <header class="hero">
-     <div class="container animate-item">
-        <h1>Ofertas de Streaming: 
-          Netflix, Disney+, Spotify e outros</h1>
-        <p>Compre planos premium e básicos com contato direto via WhatsApp ou email. Produtos de streaming para todos os gostos.</p>
-        <a href="#produtos" class="btn">Ver ofertas</a>
-     </div>
-   </header>
-   
-     <main class="container">
-      <section id="produtos" class="section">
-       <h2 class="animate-item">Planos disponíveis.</h2>
-        <div class="product-grid">
-         <article class="card animate-item">
-            <h3>Netflix Premium Basic</h3>
-            <p>Plano com qualidade alta e compatível com vários dispositivos.</p>
-            <span class="price">R$ 29,90 / mês</span>
-            <button class="btn btn-secondary buy-now" data-product="Netflix Premium Basic">Comprar</button>
-          </article>
-         <article class="card animate-item">
-            <h3>Disney Plus Premium</h3>
-            <p>Filmes, séries e conteúdo exclusivo para sua família.</p>
-            <span class="price">R$ 34,90 / mês</span>
-            <button class="btn btn-secondary buy-now" data-product="Disney Plus Premium">Comprar</button>
-          </article>
-         <article class="card animate-item">
-            <h3>Spotify Premium</h3>
-            <p>Escute música sem anúncios e baixe playlists offline.</p>
-            <span class="price">R$ 19,90 / mês</span>
-            <button class="btn btn-secondary buy-now" data-product="Spotify Premium">Comprar</button>
-          </article>
-         <article class="card animate-item">
-            <h3>Pacote Streaming</h3>
-            <p>Combo com vários serviços e suporte personalizado.</p>
-            <span class="price">A partir de R$ 69,90</span>
-            <button class="btn btn-secondary buy-now" data-product="Pacote Streaming">Comprar</button>
-          </article>
-         </div>
-       </section>
-   
-      <section class="section contact-section">
-       <h2 class="animate-item">Contato para compra</h2>
-        <p>Envie mensagem pelo WhatsApp ou email informando o plano que deseja adquirir.</p>
-        <div class="contact-grid">
-         <div class="contact-card animate-item">
-            <h3>WhatsApp</h3>
-            <p>+55 11 96429-0535</p>
-            <a class="btn btn-primary" href="https://wa.me/5511964290535?text=Olá%2C%20gostaria%20de%20comprar%20um%20plano%20de%20streaming." target="_blank" rel="noopener noreferrer">Abrir WhatsApp</a>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Planos de streaming premium: Netflix, Disney+, Spotify e outros. Compra rápida e segura com contato via WhatsApp ou email." />
+  <title>Talscom Streaming</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container animate-item">
+      <h1>Ofertas de Streaming: 
+        Netflix, Disney+, Spotify e outros</h1>
+      <p>Compre planos premium e básicos com contato direto via WhatsApp ou email. Produtos de streaming para todos os gostos.</p>
+      <a href="#produtos" class="btn">Ver ofertas</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="produtos" class="section">
+      <h2 class="animate-item">Planos disponíveis</h2>
+      <div class="product-grid">
+        <article class="card animate-item">
+          <div class="card-icon">
+            <i class="fab fa-netflix"></i>
           </div>
-         <div class="contact-card animate-item">
-            <p>talscomviproflix@gmail.com</p>
-            <a class="btn btn-primary" href="mailto:talscomviproflix@gmail.com?subject=Compra%20de%20plano%20de%20streaming&body=Olá%2C%20gostaria%20de%20comprar%20o%20plano%20">Enviar email</a>
+          <h3>Netflix Premium Basic</h3>
+          <p>Plano com qualidade alta e compatível com vários dispositivos.</p>
+          <span class="price">R$ 29,90 / mês</span>
+          <button type="button" class="btn btn-secondary buy-now" data-product="Netflix Premium Basic" aria-label="Comprar Netflix Premium Basic">Comprar</button>
+        </article>
+        <article class="card animate-item">
+          <div class="card-icon">
+            <i class="fas fa-play-circle"></i>
           </div>
+          <h3>Disney Plus Premium</h3>
+          <p>Filmes, séries e conteúdo exclusivo para sua família.</p>
+          <span class="price">R$ 34,90 / mês</span>
+          <button type="button" class="btn btn-secondary buy-now" data-product="Disney Plus Premium" aria-label="Comprar Disney Plus Premium">Comprar</button>
+        </article>
+        <article class="card animate-item">
+          <div class="card-icon">
+            <i class="fab fa-spotify"></i>
+          </div>
+          <h3>Spotify Premium</h3>
+          <p>Escute música sem anúncios e baixe playlists offline.</p>
+          <span class="price">R$ 19,90 / mês</span>
+          <button type="button" class="btn btn-secondary buy-now" data-product="Spotify Premium" aria-label="Comprar Spotify Premium">Comprar</button>
+        </article>
+        <article class="card animate-item">
+          <div class="card-icon">
+            <i class="fas fa-cube"></i>
+          </div>
+          <h3>Pacote Streaming</h3>
+          <p>Combo com vários serviços e suporte personalizado.</p>
+          <span class="price">A partir de R$ 69,90</span>
+          <button type="button" class="btn btn-secondary buy-now" data-product="Pacote Streaming" aria-label="Comprar Pacote Streaming">Comprar</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <h2 class="animate-item">Contato para compra</h2>
+      <p>Envie mensagem pelo WhatsApp ou email informando o plano que deseja adquirir.</p>
+      <div class="contact-grid">
+        <div class="contact-card animate-item">
+          <h3>WhatsApp</h3>
+          <p>+55 11 96429-0535</p>
+          <a class="btn btn-primary" href="https://wa.me/5511964290535?text=Olá, gostaria de comprar um plano de streaming." target="_blank" rel="noopener noreferrer">Abrir WhatsApp</a>
         </div>
-       </section>
-   
-       <section class="section testimonials">
-         <h2>Depoimentos</h2>
-         <blockquote>
-          “Achei o atendimento super rápido e recebi o plano no mesmo dia.” – Marina
-         </blockquote>
-         <blockquote>
-          “Comprei Spotify Premium e ficou perfeito.” – Rafael
-         </blockquote>
-       </section>
-     </main>
-   
-     <footer class="footer">
-      <p>© 2026 Talscom Streaming | Compra rápida e segura</p>
-     </footer>
-   
-     <script src="script.js"></script>
-   </body>
-   </html>
+        <div class="contact-card animate-item">
+          <h3>Email</h3>
+          <p>talscomviproflix@gmail.com</p>
+          <a class="btn btn-primary" href="mailto:talscomviproflix@gmail.com?subject=Compra de plano de streaming&body=Olá, gostaria de comprar um plano de streaming. Qual é o disponível?">Enviar email</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <h2>Depoimentos</h2>
+      <blockquote cite="#">
+        "Achei o atendimento super rápido e recebi o plano no mesmo dia." <strong>– Marina</strong>
+      </blockquote>
+      <blockquote cite="#">
+        "Comprei Spotify Premium e ficou perfeito." <strong>– Rafael</strong>
+      </blockquote>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Talscom Streaming | Compra rápida e segura</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
